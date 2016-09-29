@@ -1,0 +1,243 @@
+@import url("reset.css");
+body {
+    font-size: 14px;
+    font-family: Arial, sans-serif; 
+    background: url(img/main-bg.jpg) 1180px 1040px;
+}
+.main-wrap {
+    width: 947px;
+    height: 900px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #ffffff;
+    border-radius: 2px;
+    box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.18);
+}
+.center {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+header {
+    padding-top: 35px;
+}
+.logo {
+    float: left;
+}
+nav a {
+    text-decoration: none;
+}
+.top-menu li {
+    display: inline-block;
+    float: right;
+    padding-left: 40px;
+    padding-top: 12px;
+}
+.menu-padding {
+     padding-right: 63px;
+}
+.top-menu a.active {
+	color: #8c6641;
+}
+.top-menu a {
+    color: #bdbdbd;
+}
+.slog {
+    margin-top: 35px;
+    border-bottom: 1px solid #bfbfbf;
+    border-top: 1px solid #bfbfbf;
+    padding-top: 33px;
+    padding-bottom: 30px;
+}
+a:hover {
+       color: black;
+}
+.slog a {
+    text-decoration: none;
+    color: #8c6641;
+    outline: none;
+ 
+}
+.slog p {
+  margin-right: 37px;
+  color: #bdbdbd;
+}
+.main-content {
+    float: left;
+    padding-top: 25px;
+    width: 578px;
+    font-size: 0;
+
+}
+.main-content h4 {
+    font-size: 14px;
+}
+.main-content p {
+    font-size: 14px;
+}
+.cont-blocks {
+    display: inline-block;
+    width: 268px;
+}
+.cont-blocks:nth-child(2n) {
+         margin-left: 25px;
+}
+.cont-blocks:nth-child(3) {
+         margin-top: 19px;
+}
+.cont-blocks:nth-child(4) {
+         margin-top: 19px;
+}
+.cont-blocks img {
+    padding: 4px;
+    border: 1px solid #bfbfbf;
+    border-radius: 4px;
+}
+.cont-blocks h4 {
+    color: #939393;
+    margin-top: 16px;
+}
+.cont-blocks p {
+    color: #bdbdbd;
+    margin-top: 17px;
+}
+
+.btn1 {
+    background-color: #7baa39;
+    display: inline-block;
+    float: right;
+    text-decoration: none;
+    margin-top: 26px;
+    margin-left: 20px;
+    padding-top: 9px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    padding-right: 6px;
+    color: white;
+    border: 1px solid #628727;
+    border-radius: 3px;
+    
+}
+.btn2 {
+    background-color: #7baa39;
+    display: inline-block;
+    float: right;
+    text-decoration: none;
+    margin-top: 26px;
+    padding-top: 9px;
+    padding-left: 18px;
+    padding-bottom: 10px;
+    padding-right: 18px;
+    color: white; 
+    border: 1px solid #628727;
+    border-radius: 3px;
+}
+hr {
+    border: none; /* Убираем границу */
+    background-color: #bfbfbf; /* Цвет линии */
+    color: #bfbfbf; /* Цвет линии для IE6-7 */
+    height: 1px; /* Толщина линии */
+    margin-top: 23px;
+   }
+ 
+.sidebar {
+    float: right;
+    width: 268px;
+    padding-top: 25px;
+}
+.top-side p {
+    z-index: 999;
+    position: absolute;
+    top: 325px;
+    left: 865px;
+    line-height: 1.5;
+    font-size: 12px;
+    color: #404040;
+}
+
+.href-pic img  {
+    position: absolute;
+    top: 415px;
+    right: 230px;
+}
+.href-pic a {
+    vertical-align: top;
+    text-decoration: none;
+    font-size: 12px;
+    color: #939393;
+}
+.href-pic {
+    padding-left: 115px;
+}
+.second-menu h4 {
+    color: #404040;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    font-size: 14px;
+    padding-left: 20px;
+}
+.second-menu a {
+    text-decoration: none;
+    font-size: 12px;
+    padding-left: 20px;
+    color: #939393;
+}
+.second-menu ul {
+    padding: 0px;
+    margin: 0px;
+}
+.second-menu li:nth-child(1) {
+    border-top: 1px solid #939393;
+}
+.second-menu li {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid #939393;
+}
+.second-menu li:hover {
+    background-color: #f9f9f9;
+}
+.contact {
+    padding-top: 19px;
+    padding-left: 20px;
+    color: #939393;
+    font-size: 12px;
+}
+.contact p {
+    margin-top: 15px;
+}
+.foot {
+    clear: both;
+}
+.copyright {
+    display: inline-block;
+    float: left;
+    font-size: 12px;
+    padding-top: 37px;
+    color: #939393;
+}
+.soc {
+    display: inline-block;
+    float: right;
+    font-size: 12px;
+    padding-top: 5px;
+}
+.twitter {
+    margin-right: 30px;
+}
+.soc img {
+    position:  relative;
+    top: 15px;
+    margin-right: 20px;
+}
+.soc a {
+    text-decoration: none;
+      color: #bdbdbd;
+    font-size: 12px;
+}
